@@ -1,0 +1,724 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+body {
+    font-family: "Lato", sans-serif;
+}
+
+/* Bagian Header dan Banner */
+.header {
+    width: 100%;
+    height: 800px;
+    background-image: url('/images/Coffe\ Header.png');
+    position: relative;
+    background-color: rgba(20, 54, 66, 0.7);
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding: 0 5%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 30px;
+    
+}
+
+nav {
+    width: 100%;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo{
+    width: 335px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+    
+
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 36px;
+    color: white;
+    text-align: center;
+}
+
+.content {
+    text-align: center;
+}
+
+.content h2 {
+    font-size: 70px;
+    color: #fff;
+    font-weight: 800;
+}
+
+.content p {
+    font-size: 36px;
+    color: #fff;
+    font-weight: 400;
+}
+
+/* Bagian Body About */
+
+.contents-about {
+    padding: 120px 0;
+}
+
+.about {
+    max-width: 950px;
+    display: flex;
+    column-gap: 130px;
+    margin: 0 auto;
+}
+
+.about-img {
+    width: 335px;
+    height: 460px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.about-text h2 {
+    display: inline-block;
+    font-size: 48px;
+    font-weight: 900;
+    color: #0f8b8d;
+    padding-bottom: 14px;
+    border-bottom: 4px solid #ec9a29;
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    width: 452px;
+    height: 116px;
+    font-size: 24px;
+    line-height: 27px;
+    color: #143642;
+}
+
+/* Bagian Product Showcase */
+
+.contents-product {
+    padding: 0 0 120px 0;
+}
+
+.product {
+    max-width: 950px;
+    display: flex;
+    column-gap: 130px;
+    margin: 0 auto;
+}
+
+.product-text h2 {
+    display: inline-block;
+    font-size: 46px;
+    font-weight: 900;
+    color: #0f8b8d;
+    padding-bottom: 15px;
+    border-bottom: 4px solid #ec9a29;
+    margin-bottom:20px;
+}
+
+.product-text p {
+    width: 450px;
+    height: 58px;
+    font-size: 24px;
+    line-height: 27px;
+    color: #143642;
+}
+
+.product-text a {
+    display: inline-block;
+    width: 330px;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 50px;
+    background-color: #a8201a;
+    color: #f9fbfe;
+    padding: 15px 30px;
+    border-radius: 50px;
+}
+.product-img {
+    width: 335px;
+    height: 335px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+/* Bagian Store/Toko */
+
+.contents-store {
+    padding: 120px 0;
+}
+
+.store {
+    max-width: 950px;
+    display: flex;
+    margin: 0 auto;
+    column-gap: 130px;
+}
+
+.store-img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.store-text h2 {
+    display: inline-block;
+    font-size: 43px;
+    font-weight: 800;
+    color: #0f8b8d;
+    padding-bottom: 15px;
+    border-bottom: 4px solid #ec9a29;
+    margin-bottom: 20px;
+}
+
+.store-text p {
+    width: 400px;
+    height: 80px;
+    font-size: 24px;
+    color: #143642;
+    line-height: 27px;
+}
+
+.store-text a {
+    display: inline-block;
+    width: 335px;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #a8201a;
+    color: #f9fbfe;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 30px;
+}
+
+/* Bagian Galeri Toko */
+
+.contents-galery {
+    padding: 0 0 120px 0;
+}
+
+.galery {
+    max-width: 950px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.galery h2 {
+    display: inline-block;
+    font-size: 44px;
+    color: #0f8b8d;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+
+.ig {
+    color: #ec9a29;
+    border-bottom: 4px solid #ec9a29;
+}
+
+.galery-img {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 120px;
+    row-gap: 50px;
+    flex-wrap: wrap;
+}
+
+
+
+.galery-img img {
+    width: 230px;
+    height: 230px;
+}
+
+/* Bagian Kontak */
+
+.contents-contact {
+    padding: 0 0 120px 0;
+}
+
+.contact {
+    max-width: 950px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 48px;
+    display: inline-block;
+    color: #0f8b8d;
+    font-weight: 800px;
+    margin-bottom: 20px;
+}
+
+.contact p {
+    font-size: 24px;
+    color: #143642;
+    margin-bottom: 20px;
+}
+
+.contact a {
+    display: inline-block;
+    font-size: 24px;
+    text-align: center;
+    background-color: #a8201a;
+    color: #f9fbfe;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 30px;
+}
+
+/* Bagian Footer */
+
+.footer {
+    width: 100%;
+    height: 350px;
+    background-color: #143642;
+}
+
+.footer-nav {
+    display: flex;
+    column-gap: 180px;
+    padding: 50px 100px;
+}
+
+.footer-left {
+    margin-bottom: 20px;
+}
+
+.icon {
+    margin-right: 10px;
+    
+}
+
+.footer-right {
+    display: flex;
+    column-gap: 100px;
+}
+
+.footer-right h3 {
+    color: #ec9a29;
+    font-weight: 700;
+
+}
+
+.footer-right h3, li {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.footer-right ul ,li {
+    list-style: none;
+    padding: 0;
+    color: #f9fbfe;
+    font-weight: 400;
+}
+
+
+/* BAGIAN HEADER AROMA BARU */
+
+.header-aroma {
+    padding: 35px 120px;
+    background-color: #0f8b8d;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-aroma ul {
+    display: flex;
+    list-style: none;
+    column-gap: 65px;
+}
+
+.header-aroma li {
+    margin-bottom: 0;
+}
+
+.header-aroma a {
+    font-size: 30px;
+    text-decoration: none;
+    color: #f9fbfe;
+}
+.logo-aroma {
+    width: 350px;
+    
+}
+
+/* Bagian Menu Produk */
+
+.contents-menu-page {
+    padding: 120px 0;
+}
+
+.menu-page {
+    text-align: center;
+    margin: 0 auto;max-width: 950px;
+}
+.contents-menu-page h2 {
+    font-size: 48px;
+    color: #0f8b8d;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.contents-menu-page p {
+    font-size: 24px;
+    color: #143642;
+    margin-bottom: 40px;
+}
+
+.menus {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 100px;
+    row-gap: 50px;
+    flex-wrap: wrap;
+}
+
+.menu-box {
+    background-image: url('/images/Coffee\ background.png');
+    width: 240px;
+    height: 240px;
+    background-size: cover;
+    border-radius: 30px;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    transition: 1s all;
+}
+
+.menu-box:hover {
+    flex-direction: column-reverse;
+    transform: scale(1.1);
+}
+
+.menus h4 {
+    font-size: 20px;
+    color: #f9fbfe;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.menus p {
+    font-size: 18px;
+    color: #f9fbfe;
+    margin:0;
+    
+}
+
+.menus img {
+    width: 190px;
+    height: 150px;
+    transition: 1s all;
+}
+
+.menus img:hover {
+    transform: scale(1.3);
+}
+
+/* Bagian Detail Menu/Produk */
+
+.contents-detail-menu {
+    padding: 60px 0 120px 60px;
+}
+
+.details-menu {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.detail-menu {
+    display: flex;
+}
+.detail-menu img {
+    width: 631px;
+    height: 475px;
+}
+
+.detail-menu h2 {
+    font-size: 45px;
+    color: #0f8b8d;
+    font-weight: 700;
+    padding-top: 100px;
+    margin-bottom: 30px;
+}
+
+.detail-desc {
+    font-size: 24px;
+    color: #143642;
+    margin-bottom: 60px;
+}
+
+.detail-menu-text {
+    width: 50%;
+}
+
+.detail-price {
+    font-size: 60px;
+    color: #0f8b8d;
+    font-weight: 800;
+}
+
+.detail-full {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+
+.detail-full h2 {
+    width: 400px;
+    font-size: 40px;
+    color: #0f8b8d;
+    margin-top: 45px;
+    border-bottom: 4px solid #ec9a29;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.detail-full-text p {
+    width: 900px;
+   font-size: 24px;
+   color: #143642;
+   line-height: 27px;
+}
+
+.detail-btn {
+    display: flex;
+    align-items: center;
+    width: 335px;
+    background-color: #a8201a;
+    padding: 18px 41px;
+    border-radius: 150px;
+    margin-top: 45px;
+}
+
+.arrow-back {
+    transform: scaleX(-1);
+    width: 40px;
+    height: 30px;
+    
+}
+
+.detail-btn a {
+    display: inline-block;
+    text-decoration: none;
+    color: #f9fbfe;
+    font-size: 22px;
+}
+
+/* Bagian Map/Adress Store */
+
+.contents-findus-page {
+    padding: 120px 0;
+}
+
+.findus {
+    max-width: 1300px;
+    margin:  0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.findus-address {
+    width: 50%;
+
+}
+
+.findus-address h2 {
+    font-size: 46px;
+    color: #0f8b8d;
+    font-weight: 800;
+    margin-bottom: 20px;
+
+}
+
+.findus-desc{
+    font-size: 24px;
+    color: #143642;
+    margin-bottom: 20px;
+}
+
+.address {
+    width: 480px;
+    padding: 20px 40px 40px;
+    margin-bottom: 20px;
+    border: 2px solid #d2d2d2;
+    border-radius: 20px;
+}
+
+.address h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #143642;
+    margin-bottom: 20px;
+}
+
+.address p {
+    font-size: 20px;
+    color: #143642;
+    margin-bottom: 20px;
+}
+
+.map-address {
+    width: 50%;
+}
+
+.map-address img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+/* Bagian Contact */
+
+.contents-support-page {
+    padding: 120px 0;
+}
+
+.support {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.support-title h2 {
+    font-size: 46px;
+    color: #0f8b8d;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+
+.support-form {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    align-items: center;
+    column-gap: 30px;
+    row-gap: 20px;
+    width: 100%;
+    height: 700px;
+    border: 2px solid #d2d2d2;
+    border-radius: 20px;
+    padding: 50px 100px;
+}
+
+
+label {
+    grid-column: 1/2;
+    font-size: 25px;
+    font-weight: 700;
+    color: #143642;
+}
+
+input, textarea {
+    grid-column: 2 / 3;
+    padding: 20px 46px;
+    font-size: 20px;
+    border: 2px solid #d2d2d2;
+    color: #d2d2d2;
+    border-radius: 20px;
+}
+
+textarea {
+    margin-top: 46px;
+}
+
+button {
+    width: 220px;
+    height: 70px;
+    grid-column: 2 /3 ;
+    margin-top: 50px;
+    color: #f9fbfe;
+    border: none;
+    background-color: #a8201a;
+    font-size: 20px;
+    border-radius: 190px;
+    margin-top: 50px;
+}
+
+/* Bagian Scroll Animation Pada Home */
+
+.aroma {
+    position: relative;
+    opacity: 0;
+}
+.aroma.active {
+    opacity: 1;
+}
+
+.active.mode-bottom {
+    animation: mode-bottom 0.7s ease-in;
+}
+.active.mode-top {
+  animation: mode-top 0.7s ease-in;
+}
+
+.active.mode-left {
+  animation: mode-left 0.7s ease-in;
+}
+.active.mode-right {
+  animation: mode-right 0.7s ease-in;
+}
+
+@keyframes mode-bottom {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes mode-top {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(-70px);
+        opacity: 1;
+    }
+}
+
+@keyframes mode-left {
+  0% {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes mode-right {
+  0% {
+    transform: translateX(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
